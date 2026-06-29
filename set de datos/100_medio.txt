@@ -1,0 +1,99 @@
+Messi,Dibu,Cuti Romero
+Pezzella
+Di Maria,Palermo,Riquelme
+Beltran,Colidio
+Langoni,Zapelli,Casco,Luka Romero
+Buendia,Dybala
+Gallardo,Armani,Tucu Pereyra
+Colo Barco
+Barcon't,Burrito Ortega,Wachoffisde Abila
+Messi,Pezzella,Cuti Romero,Dibu
+Di Maria,Langoni
+Palermo,Beltran,Dybala
+Riquelme,Gallardo
+Casco,Colo Barco,Luka Romero
+Buendia,Colidio,Messi
+Zapelli
+Armani,Dibu
+Mauro Zarate,Pezzella,Changuito Zeballos
+Tucu Pereyra
+Messi,Langoni,Casco,Beltran
+Di Maria,Palermo
+Riquelme,Colidio,Gallardo
+Buendia
+Dybala,Luka Romero,Colo Barco
+Barcon't,Cuti Romero
+Messi,Mauro Zarate
+Pezzella,Zapelli
+Casco,Changuito Zeballos,Tucu Pereyra
+Palermo,Colidio
+Riquelme,Dibu,Di Maria
+Gallardo,Messi
+Beltran,Langoni,Armani
+Buendia,Casco,Luka Romero,Dybala
+Colo Barco,Tucu Pereyra
+Barcon't,Pezzella,Cuti Romero
+Messi,Colidio,Cuti Romero
+Di Maria,Dibu
+Palermo,Gallardo
+Riquelme,Zapelli
+Beltran,Mauro Zarate
+Casco,Luka Romero,Buendia
+Armani,Messi
+Colo Barco,Dybala
+Barcon't,Tucu Pereyra
+Pezzella,Palermo
+Gallardo,Cuti Romero
+Langoni,Di Maria,Messi
+Zapelli,Colidio
+Armani,Pezzella
+Casco,Riquelme,Palermo
+Buendia,Dibu
+Gallardo,Tucu Pereyra,Messi
+Colo Barco,Luka Romero
+Barcon't,Dybala
+Changuito Zeballos,Mauro Zarate
+Beltran,Langoni
+Pezzella,Cuti Romero
+Di Maria,Colidio,Casco
+Riquelme,Armani
+Palermo,Buendia
+Messi,Zapelli,Luka Romero
+Gallardo,Dibu
+Colo Barco,Beltran
+Barcon't,Cuti Romero,Di Maria
+Tucu Pereyra,Dybala
+Langoni,Mauro Zarate
+Casco,Messi,Armani
+Changuito Zeballos,Pity Martinez
+Messi,Dibu,Pezzella,Cuti Romero
+Gallardo,Riquelme
+Palermo
+Beltran,Zapelli,Casco,Luka Romero
+Colo Barco,Barcon't,Buendia
+Armani,Tucu Pereyra,Dybala
+Langoni
+Soule,Messi
+Mauro Zarate,Pity Martinez,Changuito Zeballos
+Di Maria,Cuti Romero,Dibu
+Pezzella,Colidio,Gallardo
+Casco
+Palermo,Riquelme,Beltran
+Luka Romero,Buendia
+Colo Barco,Dybala,Messi,Armani
+Barcon't,Wachoffisde Abila
+Langoni,Zapelli,Di Maria
+Soule
+Changuito Zeballos,Tucu Pereyra,Casco,Colidio
+Gallardo,Pezzella
+Messi
+Buendia,Palermo,Dybala
+Armani,Riquelme,Langoni
+Colo Barco,Luka Romero,Cuti Romero
+Barcon't
+Beltran,Dibu,Di Maria,Mauro Zarate,Pity Martinez
+Zapelli
+Gallardo,Messi,Casco
+Changuito Zeballos
+Tucu Pereyra,Palermo,Pezzella,Colidio,Buendia,Dybala
+Armani,Colo Barco,Soule
