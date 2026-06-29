@@ -2,9 +2,8 @@ import sys
 import time
 
 
-def leer_instancia(path):
-   
-    with open(path, "r") as f:
+def leer_instancia(archivo):
+    with open(archivo, "r") as f:
         lineas = [l.strip() for l in f if l.strip() != ""]
 
     nombre_a_indice = {}
@@ -29,42 +28,47 @@ def leer_instancia(path):
     return n, m, conjuntos, nombres
 
 
+def cubierto(conjunto, actual):
+    for elem in conjunto:
+        if elem in actual:
+            return True
+    return False
+
+
 def primer_no_cubierto(actual, conjuntos):
-   
-    for b in conjuntos:
-        if len(actual & b) == 0:
-            return b
+    for conj in conjuntos:
+        if not cubierto(conj, actual):
+            return conj
     return None
 
 
-def backtrack(actual, conjuntos, mejor):
-    # explora recursivamente, guardando la mejor solucion
+def backtracking(actual, conjuntos, mejor_tam):
+    # si ya superamos o igualamos la mejor solucion conocida, poda
+    if len(actual) >= mejor_tam:
+        return mejor_tam, None
 
-    # poda: si ya superamos o igualamos la mejor solucion, cortar
-    if len(actual) >= mejor["tam"]:
-        return
+    conj = primer_no_cubierto(actual, conjuntos)
 
-    b = primer_no_cubierto(actual, conjuntos)
+    if conj is None:
+        return len(actual), actual[:]
 
-    if b is None:
-       
-        mejor["tam"] = len(actual)
-        mejor["solucion"] = set(actual)
-        return
+    mejor_solucion = None
 
-    for elem in b:
-        if elem in actual:
-            continue
-        backtrack(actual | {elem}, conjuntos, mejor)
+    for elem in conj:
+        actual.append(elem)
+        tam, sol = backtracking(actual, conjuntos, mejor_tam)
+        actual.pop()
+
+        if sol is not None and tam < mejor_tam:
+            mejor_tam = tam
+            mejor_solucion = sol
+
+    return mejor_tam, mejor_solucion
 
 
 def hitting_set_backtracking(n, conjuntos):
-    # cota superior inicial: n+1 
-    mejor = {"tam": n + 1, "solucion": None}
-
-    backtrack(frozenset(), conjuntos, mejor)
-
-    return mejor["tam"], mejor["solucion"]
+    tam, solucion = backtracking([], conjuntos, n + 1)
+    return tam, solucion
 
 
 def main():
@@ -72,18 +76,18 @@ def main():
         print("Uso: python3 tp3.py ruta/a/listado.txt")
         sys.exit(1)
 
-    path = sys.argv[1]
-    n, m, conjuntos, nombres = leer_instancia(path)
+    archivo = sys.argv[1]
+    n, m, conjuntos, nombres = leer_instancia(archivo)
 
     inicio = time.perf_counter()
     tam, solucion = hitting_set_backtracking(n, conjuntos)
     fin = time.perf_counter()
-
-    jugadores_solucion = sorted(nombres[i] for i in solucion)
-
-    print(f"n = {n}, m = {m}")
-    print(f"Tamanio del Hitting-Set optimo: {tam}")
-    print(f"Hitting-Set: {jugadores_solucion}")
+    
+    jugadores_solucion = []
+    for i in solucion:
+        jugadores_solucion.append(nombres[i]) 
+    
+    print(f"Cantidad minima: {tam} ({jugadores_solucion})")
     print(f"Tiempo de ejecucion: {fin - inicio:.6f} segundos")
 
 
