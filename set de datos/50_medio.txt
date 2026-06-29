@@ -1,0 +1,50 @@
+Messi,Dibu,Cuti Romero
+Pezzella,Di Maria
+Messi,Palermo,Riquelme
+Beltran,Colidio
+Langoni,Zapelli,Casco
+Luka Romero,Buendia,Dybala
+Gallardo
+Armani,Tucu Pereyra
+Colo Barco,Barcon't,Burrito Ortega
+Messi,Pezzella,Cuti Romero,Dibu
+Di Maria,Langoni
+Palermo,Beltran,Dybala
+Riquelme,Gallardo
+Casco,Colo Barco
+Buendia,Colidio,Messi
+Luka Romero,Zapelli
+Armani,Dibu
+Mauro Zarate,Pezzella
+Changuito Zeballos,Tucu Pereyra
+Messi,Langoni,Casco
+Di Maria,Palermo
+Beltran,Riquelme,Colidio
+Gallardo,Buendia
+Dybala,Luka Romero
+Colo Barco,Armani
+Barcon't,Cuti Romero
+Messi,Mauro Zarate
+Pezzella,Zapelli
+Casco,Changuito Zeballos
+Palermo,Colidio
+Riquelme,Dibu,Di Maria
+Gallardo,Messi
+Beltran,Langoni
+Buendia,Casco
+Luka Romero,Armani,Dybala
+Colo Barco,Tucu Pereyra
+Barcon't,Pezzella
+Messi,Colidio,Cuti Romero
+Di Maria,Dibu
+Palermo,Gallardo
+Riquelme,Zapelli
+Beltran,Mauro Zarate
+Casco,Luka Romero
+Buendia,Changuito Zeballos
+Armani,Messi
+Colo Barco,Dybala
+Barcon't,Tucu Pereyra
+Pezzella,Palermo
+Gallardo,Cuti Romero
+Langoni,Di Maria,Messi

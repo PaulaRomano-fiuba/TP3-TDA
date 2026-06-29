@@ -1,0 +1,50 @@
+Messi,Dibu,Cuti Romero
+Messi
+Messi,Pezzella
+Messi,Di Maria,Palermo
+Messi,Beltran
+Messi,Langoni,Casco
+Messi,Luka Romero,Buendia,Dybala
+Messi,Colidio
+Messi,Zapelli,Changuito Zeballos,Mauro Zarate
+Dibu,Cuti Romero
+Messi,Armani,Gallardo
+Messi,Tucu Pereyra
+Messi,Colo Barco
+Messi,Wachoffisde Abila
+Messi,Barcon't,Burrito Ortega
+Messi,Chiquito Romero
+Messi,El fantasma de la B
+Dibu,Pezzella
+Cuti Romero,Palermo
+Messi,Riquelme
+Messi,Dybala
+Messi,Casco
+Messi,Langoni
+Messi,Luka Romero
+Messi,Buendia
+Messi,Zapelli
+Messi,Mauro Zarate
+Messi,Changuito Zeballos
+Messi,Colidio,Beltran
+Messi,Gallardo
+Dibu,Di Maria
+Messi,Soule
+Messi,Buonanotte
+Messi,Tucu Pereyra,Armani
+Messi,Colo Barco,Casco
+Messi,Wachoffisde Abila,Dibu
+Messi,Burrito Ortega
+Messi,Chiquito Romero,Pezzella
+Messi,El fantasma de la B,Palermo
+Messi,Riquelme,Dybala
+Messi,Langoni,Colidio
+Messi,Cuti Romero,Beltran
+Messi,Di Maria
+Messi,Dibu
+Messi,Gallardo,Casco
+Messi,Buendia,Luka Romero
+Messi,Armani
+Messi,Palermo
+Messi,Pezzella,Cuti Romero
+Dibu,Cuti Romero,Di Maria
